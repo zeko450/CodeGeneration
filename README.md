@@ -3,12 +3,15 @@
 A Useful **Desktop** Application made in **.NET** used to **generate** and **store** passwords. <br>
 All generated code follow the same format. First character is a capital, the 11th is a number <br>
 and the 12th is a punctuation. <br> <br> 
-When the application is launched for the first time a **file is added** to your **c:/user/appdata/local/** named **codeGenEncryption** <br>
-containing a **40 character long Key**. <br> 
+When the application is launched for the first time a **file is added** to your **c:/user/appdata/local/** named **codeGenEncryption** containing a **40 character long Key**. <br> 
 <br>
-As this application data is meant to be stored in the cloud and the user is meant to be anonymous, the key will serve to <br>
+This application data is meant to be stored in the cloud and the user is meant to be anonymous, the key will serve to <br>
 identify the user which means **each user is a unique 40 character long key**. <br>
-  
+
+## Overview 
+
+![image](https://github.com/zeko450/CodeGeneration/assets/114595632/e0d95430-c67f-440c-b66d-7e0c3c65b4d7)
+
 ## Prerequisite
 1)  [Visual Studio ](https://visualstudio.microsoft.com/fr/vs/community/) - Download Visual Studio </pre>
 2)  [.NET 4.7.2 ](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net472) -  .NET Framework 4.7.2 </pre>
@@ -82,12 +85,5 @@ The method emptyPasswordField(), changeCursor(), showProgressBar(), setCustomLab
 **afterPasswordGenerated()** - This function call several other methods after the password is fully generated.
 changeCursor(), MessageBox.Show(), showProgressBar(), showloadingLabels() are called in this specific order.
 **
-
-## Screenshot 
-<img src="https://github.com/zeko450/CodeGeneration/assets/114595632/bf89c7d3-6549-401f-8411-741d01e5dcf8" width="500" />
-<img src="https://github.com/zeko450/CodeGeneration/assets/114595632/b1888e65-fae2-467e-aa70-1bf8a2121c5a" width="500" />
-<img src="https://github.com/zeko450/CodeGeneration/assets/114595632/3dce0451-7ab9-4634-86d9-2219321f6317" width="500" />
-<img src="https://github.com/zeko450/CodeGeneration/assets/114595632/82f6a77e-9f01-41ac-a918-941b23fed485" width="500" />
-
 
 ###
