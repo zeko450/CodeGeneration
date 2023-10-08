@@ -386,9 +386,9 @@ namespace CodeGeneration.Utils
         
         public static int saveAccess(string platform, string password, string key) {
 
-            string cs = "server=codegeneration.mysql.database.azure.com;" +
-                       "user=zeko450; password=Jetaime1!;" +
-                   "database=codegeneration;port=3306;SslMode=Required;SslCa=Resources.DigiCertGlobalRootCA.crt.pem";
+            string cs = "server=mysql-zeko450.alwaysdata.net;" +
+                       "user=zeko450; password=Alwaysdata2023;" +
+                   "database=zeko450_services";
            
             DaoAccess dao = new DaoAccess(cs);
             Access access = new Access(platform, password, key);
@@ -403,10 +403,10 @@ namespace CodeGeneration.Utils
 
         public static List<Access> getAccess() {
 
-            string cs = "server=codegeneration.mysql.database.azure.com;" +
-                       "user=zeko450; password=Jetaime1!;" +
-                   "database=codegeneration;port=3306;SslMode=Required;SslCa=Resources.DigiCertGlobalRootCA.crt.pem";
-
+            string cs = "server=mysql-zeko450.alwaysdata.net;" +
+                       "user=zeko450; password=Alwaysdata2023;" +
+                   "database=zeko450_services";
+            
             DaoAccess dao = new DaoAccess(cs);
 
             string key = readCodeFile();
