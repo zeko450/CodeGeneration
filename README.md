@@ -9,13 +9,18 @@ This application data is meant to be stored in the cloud and the user is meant t
 identify the user which means **each user is a unique 40 character long key**. <br>
 
 ## Overview 
+<img width="409" alt="image" src="https://github.com/zeko450/CodeGeneration/assets/114595632/77a43171-8fc1-46d6-955b-598ea898bfd6">
+<img width="410" alt="image" src="https://github.com/zeko450/CodeGeneration/assets/114595632/48dd2f02-fb9d-48c1-b092-37c9c3360675">
 
-![image](https://github.com/zeko450/CodeGeneration/assets/114595632/e0d95430-c67f-440c-b66d-7e0c3c65b4d7)
+
+
+
 
 ## Prerequisite
 1)  [Visual Studio ](https://visualstudio.microsoft.com/fr/vs/community/) - Download Visual Studio </pre>
 2)  [.NET 4.7.2 ](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net472) -  .NET Framework 4.7.2 </pre>
-3) [MySql WorkBench ](https://www.mysql.com/products/workbench/) - Download MySql WorkBench 
+3) [MySql WorkBench ](https://www.mysql.com/products/workbench/) - Download MySql WorkBench  (Choose this option or option 4 )
+4) [Alwaysdata.com](https://alwaysdata.com/) - MySql Cloud Host (Choose this option or option 3 )
 
 ## Open and execute
 1) Open the project with visual studio
