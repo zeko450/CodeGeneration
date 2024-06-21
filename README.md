@@ -1,7 +1,7 @@
 
 ## CodeGeneration
 A Useful **Desktop** Application made in **.NET** used to **generate** and **store** passwords. <br>
-All generated code follow the same format. First character is a capital, the 11th is a number <br>
+All generated code follow the same format. First character is a capital, the followthing 10 characters are tiny letters, the 11th is a number <br>
 and the 12th is a punctuation. <br> <br> 
 When the application is launched for the first time a **file is added** to your **c:/user/appdata/local/** named **codeGenEncryption** containing a **40 character long Key**. <br> 
 <br>
